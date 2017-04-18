@@ -1,0 +1,250 @@
+
+</div>
+
+<!-- Footer -->
+<!-- <footer class="footer">
+  <div class="row full-width">
+    <div class="col m2">
+      <img src="/images/logo_goforcare.svg">
+    </div>
+    <div class="col m2">
+      <a href="/services"><h4 class="footer-h"><i class="fa fa-medkit footer-h-icon"></i>&nbsp&nbspServices</h4></a>
+      <ul class="footer-links">
+        <li><a href="/services">Medical Services</a></li>
+        <li><a href="/services">Wellness Services</a></li>
+        <li><a href="/services">Tourism Services</a></li>
+      <ul>
+    </div>
+    <div class="col m2">
+      <h4 class="footer-h"><i class="fa fa-paper-plane footer-h-icon"></i>&nbsp&nbspContact</h4>
+      <ul class="footer-links">
+        <li><a href="tel:+18882266205"><i class="fa fa-phone"></i>&nbsp;+18882266205</a></li>
+        <li><a href="tel:+5766373838383"><i class="fa fa-phone"></i>&nbsp;+573167406147</a></li>
+        <li><a href="mailto:contact@goforcare.co"><i class="fa fa-envelope"></i>&nbsp;contact@goforcare.co</a></li>
+      <ul>
+    </div>
+    <div class="col m2 offset-m2">
+      <img src="/images/MTP-logo.png" class="footer-logo">
+    </div>
+    <div class="col m2">
+      <img src="/images/MTA-logo.png" class="footer-logo">
+    </div>
+  </div>
+</footer> -->
+
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l2 m2 s12">
+                <img src="/images/logo_goforcare.svg" class="footer-logo gfc">
+              </div>
+              <div class="col s12 m2 l2">
+              <h6 class="footer-text">Company</h6>
+                <ul class="footer-text">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/services">Services</a></li>
+                  <li><a href="/network">About us</a></li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="col m2 s12 l2">
+              <h6 class="footer-text">Payments</h6>
+                <ul class="footer-text">
+                  <li><a href="/services">Financing plans</a></li>
+                  <li><a href="https://www.zonapagos.com/t_goforcare/formas.asp?estado=crear&codigo=8B134F6D7830EF1C29414DD1FD076649C75909B3DCDA38EB&registro_externo=98D08EC81D019F4DC5FE998190940E101B537813903B5506">PSE</a></li>
+                  <li><a href="/network">Western Union</a></li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="col s12 m4">
+                <h5 class="footer-text">Follow us</h5>
+                <ul class="ul-social">
+                        <li><a class="waves-effect waves-light social instagram">{% include /svg/instagram-icon.svg %}
+                        </a></li>
+                        <li><a class="waves-effect waves-light social fb">{% include /svg/facebook.svg %}
+                        </a></li>
+                        <li><a class="waves-effect waves-light social gplus">{% include /svg/google-plus.svg %}
+                        </a></li>
+                        <li><a class="waves-effect waves-light social twitter">{% include /svg/twitter.svg %}
+                        </a></li>
+                </ul>
+                </div>
+              <div class="col m1 l1 s12">
+                <img src="/images/MTP-logo.png" class="footer-logo responsive-img">
+              </div>
+              <div class="col m1 l1 s12">
+                <img src="/images/MTA-logo.png" class="footer-logo responsive-img">
+              </div>
+          </div>
+          </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container footer-text">
+            © 2016 Go For Care - All rights reserved.
+            </div>
+          </div>
+        </footer>
+
+
+
+ 
+
+    <!-- Core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Compressed JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(window).scroll(function () {
+      console.log($(window).scrollTop());
+    if ($(window).scrollTop() > 60) {
+      $("#nav").removeClass("navbar-trans").addClass("navbar-white");
+    }
+    if ($(window).scrollTop() < 61) {
+      $("#nav").removeClass("navbar-white").addClass("navbar-trans");
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(window).scroll(function () {
+      console.log($(window).scrollTop());
+    if ($(window).scrollTop() > 60) {
+      $("#nav.landing").removeClass("hide-on-med-and-up").addClass("navbar-white");
+    }
+    if ($(window).scrollTop() < 61) {
+      $("#nav.landing").removeClass("navbar-white").addClass("hide-on-med-and-up");
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+ $(window).load(function() {
+  $('.carousel.carousel-slider').carousel({full_width: true});
+$('img.prev').click(function() {
+  $('.carousel').carousel('prev');
+});
+$('img.next').click(function() {
+  $('.carousel').carousel('next');
+});
+});
+
+
+</script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+ //MOBILE PROCEDURES
+    $('ul.dropdown-content').tabs();
+     $('.droppy').dropdown({
+          inDuration: 300,
+          outDuration: 225,
+          constrain_width: true, // Does not change width of dropdown to that of the activator
+          hover: false, // Activate on hover
+          gutter: 0, // Spacing from edge
+          belowOrigin: true, // Displays dropdown below the button
+          alignment: 'left' // Displays dropdown with edge aligned to the left of button
+        }
+      );
+      $( "li.tab.optgroup-option" ).click(function() {
+      var dropdowntext = $( this ).text();
+      $( "input.select-dropdown.proc" ).val( dropdowntext );
+    });
+
+ //CAROUSEL
+ $('.carousel.carousel-slider').carousel({full_width: true});
+$('img.prev').click(function() {
+  $('.carousel').carousel('prev');
+});
+$('img.next').click(function() {
+  $('.carousel').carousel('next');
+});
+
+  });
+
+</script>
+
+
+<script type="text/javascript">
+  
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
+
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+
+    $(".button-collapse").sideNav();
+  });
+        
+</script>
+<script type="text/javascript">
+  var $contactForm = $('#contact-form');
+$contactForm.submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    url: '//formspree.io/contact@goforcare.co',
+    method: 'POST',
+    data: $(this).serialize(),
+    dataType: 'json',
+    beforeSend: function() {
+      $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
+    },
+    success: function(data) {
+      $contactForm.find('.alert--loading').hide();
+      $contactForm.append('<div class="alert alert--success">Message sent!</div>');
+    },
+    error: function(err) {
+      $contactForm.find('.alert--loading').hide();
+      $contactForm.append('<div class="alert alert--error">Oops, there was an error.</div>');
+    }
+  });
+});
+</script>
+
+
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  
+  $('.stroke').on("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",
+ function(ekg){
+    // do something here
+    $(this).attr('class', 'stroke no-stroke');
+  setTimeout( function(){ 
+    // Do something after 1 second 
+    $('.stroke').attr("class", "stroke ekg-animate");
+  }  , 2000 );
+  
+ });
+  ekg();
+});
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    
+  var maxHeight = 0;
+
+$("ul.igrid li").each(function(){
+   if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+});
+
+$("ul.igrid li").height(maxHeight);
+  });
+      
+</script>
+
+
+

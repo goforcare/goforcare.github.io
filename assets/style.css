@@ -1,0 +1,663 @@
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+div.container {
+  width: 90%;
+}
+.bold {
+  font-weight: 500;
+}
+/*----------------NAVBAR---------------*/
+
+.gfcblue{
+  color: #009FE3;
+}
+.navbar-list li.navbar-item a{
+  font-size:1.2rem;
+  }
+.navbar-list li.navbar-item a {
+  padding:0 1.5rem; 
+}
+.navbar-list li.navbar-item i.fa {
+  margin-right:0.5rem;
+}
+.nav-wrapper {
+  padding: 0 1.2rem;
+}
+a.brand-logo svg {
+  width:10rem;
+  vertical-align:middle;
+}
+a.brand-logo svg:nth-child(1) {
+  width:3rem;
+  margin: -0.6rem 0.5rem 0 0.5rem;
+}
+#nav.navbar-trans nav{
+	box-shadow: none;
+}
+#nav a, #nav li {
+	transition: color 0.4s ease;
+}
+#nav.navbar-trans a, #nav.navbar-trans li {
+	color: white;
+}
+#nav.navbar-trans a.brand-logo svg path {
+  fill: #fff;
+}
+#nav nav{
+	transition: background-color 0.4s ease;
+	background-color: rgba(0,0,0,0);
+}
+#nav.navbar-white nav{
+  background-color: #fff;
+}
+                                                                                                                                                                             } }
+                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                      
+/*-------------------NAVBAR ENDS----------------*/
+
+/*---------FOOTER-------*/
+.full-width {
+  max-width: 1400px;
+}
+footer .container {
+	width: 90%;
+}
+i.big-fa{
+  font-size: 4rem;
+}
+.footer-logo:not(.gfc){
+  margin-top: 2rem;
+}
+.footer-logo.gfc{
+  margin-top: 0rem;
+  margin-left: -1.3rem;
+}
+.footer-images img{
+display: inline-block;
+}
+.footer-images img:first-child {
+  margin-right: 2.5rem;
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links {
+  margin-top: .5em;
+}
+
+footer.footer > div.row {
+ margin-bottom:0;}
+                                                                                                                                                                               
+@media only screen and (max-width: 900px) {
+footer {display:none;}
+}
+footer.page-footer{
+
+  z-index: 1000;
+  background-color: #F6F9FC;
+  margin-top: 0;
+  border-top: 2px solid rgba(207,215,223,.45);
+}
+
+.footer-text {
+  color: #8898aa;
+}
+h6.footer-text, h5.footer-text {
+  margin-top: 0;
+  font-weight: 500;
+}
+h6.footer-text {
+  text-align: left;
+  font-weight: 600;
+}
+ul.footer-text li a {
+  color: #8898aa;
+}
+ul.footer-text li a:hover, ul.footer-text li a:focus, ul.footer-text li a:active {
+  color: #039be5;
+}
+
+/*----------SOCIAL---------*/
+
+ul.ul-social li {
+  display: inline-block !important;
+}
+ul.ul-social {
+  text-align: center;
+}
+
+a.social{
+  width: 3rem;
+  height:3rem;
+  background-color: #EFEFEF;
+  border-radius: 20%;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transition: background-color 300ms linear;
+        -moz-transition: background-color 300ms linear;
+        -o-transition: background-color 300ms linear;
+        -ms-transition: background-color 300ms linear;
+        transition: background-color 300ms linear;
+}
+a.social:not(:first-child){
+  margin-left: 1rem;
+  
+}
+a.social svg {
+  width:3rem;
+  height: auto;
+  padding: 0.4rem;
+}
+a.social svg path {
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+  
+}
+.sidebar a.social.instagram, a.social.instagram:hover {
+  background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+  background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+}
+.sidebar a.social svg path, a.social:hover svg path{
+  fill:#fff;
+}
+.sidebar a.social {
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2 ease-in-out;
+  -moz-transition: all .2 ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2 ease-in-out;
+}
+.sidebar a.social:hover svg {
+  transform:scale(1.3);
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+}
+.sidebar a.social.fb, a.social.fb:hover {
+  background-color:#395185;
+}
+.sidebar a.social.gplus, a.social.gplus:hover{
+  background-color:#DC4D40;
+}
+a.social.twitter svg {
+  margin-top:0.18rem;
+}
+.sidebar a.social.twitter, a.social.twitter:hover {
+  background-color:#55ACEE;
+}
+.share {
+  margin-top: 3rem;
+} 
+
+/*===========================HOMEPAGE===========================*/
+
+/*----------------VIDEO---------------*/
+
+/*.videocontainer {
+	background: background: #504e52;
+}
+
+video { 
+	mix-blend-mode: multiply;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}*/
+div.cover {
+  overflow:hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+div.landing-circle {
+   pointer-events: none;
+    content: '';
+    z-index: 2;
+    display: block;
+    position: absolute;
+    left: -2.3rem;
+    width: 40vw;
+  
+    height: 102vh;
+    background-image: url('/images/landing-shape.svg');
+    background-position: center bottom;
+    background-size: cover;
+  }
+.cover-photo {
+  height: 100vh;
+	background-image: url("/images/cover.jpg");
+	background-position: top right;
+}
+
+.btn-floating.get-started {
+	display: block;
+	margin: auto;
+}
+
+.cover h1 {
+	margin-top: 0;
+	padding-top: 12.5rem;
+	font-size: 3rem;
+}
+/*----------------SIDEBAR---------------*/
+.cover h2 {
+	font-size: 1.5rem;
+}
+.row .col.m3.l3.sidebar-menu {
+  position: relative;
+  z-index: 3;
+  margin-top: 3rem;
+  margin-left: -2.3rem;
+}
+.sidebar-logo a.brand-logo img {
+  width: 14rem;
+}
+.sidebar-list {
+  margin-top: 6rem;
+  text-align: left;
+  margin-left:4rem;
+}
+.sidebar-list li {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+
+}
+.sidebar-list li i {
+  margin-right: 1rem;
+}
+.btn-large, .btn {
+  border-radius: 30px;
+}
+.contact {
+  margin: auto;
+  margin-top: 2.5rem;
+  margin-bottom: 8rem;
+}
+.sidebar-contact {
+  margin-top: 2.5rem;
+  margin-left:2.8rem;
+}
+.contact i, .sidebar-contact i {
+  margin-right: 1rem;
+  margin-top: -0.1rem;
+}
+
+/*----------------LANDING PAGE SECTIONS---------------*/
+section.landing {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+section.landing.dark {
+  background: #f8f8f8;
+}
+section.landing a.btn {
+  margin-top: 1rem;
+}
+div.illustration {
+  position: relative;
+}
+.illustration svg {
+  position: absolute;
+}
+/*----------------LANDING PAGE PACKAGES---------------*/
+
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+figure {
+position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  height: auto;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+  pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+figure h2 span {
+  font-weight: 800;
+}
+
+figure h2,
+figure p {
+  margin: 0;
+}
+
+figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect-ming {
+  background: #030c17;
+}
+
+figure.effect-ming img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.effect-ming h2 {
+  margin-top:11%;
+  margin-left:-1.1rem;
+}
+
+figure.effect-ming figcaption::before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+  content: '';
+  opacity: 0;
+}
+@media only screen and (min-width: 601px) {
+ figure.effect-ming figcaption::before { 
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale3d(1.4,1.4,1);
+  transform: scale3d(1.4,1.4,1);}
+  
+  figure.effect-ming:hover h2 {
+    -webkit-transition: margin 700ms;
+    transition: margin 700ms;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+    margin-top:0;
+}
+  figure.effect-ming p {
+    -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  }
+
+figure.effect-ming:hover figcaption::before,
+figure.effect-ming:hover p {
+  opacity: 1;
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+}
+}
+
+figure.effect-ming h2 {
+  margin-bottom:10px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+
+figure.effect-ming p {
+  padding: 1em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+
+
+figure.effect-ming:hover figcaption {
+  background-color: rgba(58,52,42,0);
+}
+
+figure.effect-ming:hover img {
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 600px) {
+figure.effect-ming figcaption::before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+  content: '';
+  opacity: 1;
+}
+figure.effect-ming h2 {
+  margin-left: -0.3rem;
+}
+section.landing-packages div.container{
+width:100%;
+}
+figure.effect-ming p {
+  opacity: 1;
+  padding: 0;
+}
+
+figure.effect-ming figcaption {
+  background-color: rgba(58,52,42,0);
+}
+
+figure.effect-ming img {
+  opacity: 0.4;
+}
+ }
+
+/*----------------LANDING PAGE SURGEONS AND DOCTORS---------------*/
+
+
+.carousel-container {
+  overflow:hidden;
+  width: 100%;
+  height: 65vh;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.carousel-slider {
+    height: 25rem !important;
+}
+
+.carousel-container:before {
+  pointer-events: none;
+    content: '';
+    z-index: 10;
+    display: block;
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    bottom: -2px;
+    height: 300px;
+    background-image: url(/images/waves.svg);
+    background-position: center bottom;
+    background-size: cover;
+}
+.carousel-container:after {
+  pointer-events: none;
+    content: '';
+    z-index: 10;
+    display: block;
+    position: absolute;
+    left: -100px;
+    right: -100px;
+    bottom: -2px;
+    height: 300px;
+    background-image: url(/images/waves.svg);
+    background-position: center bottom;
+    background-size: cover;
+  }
+.carousel-item {
+ background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.carousel-container img.prev, .carousel-container img.next{
+  color: #fff;
+  width: 3rem;
+  z-index:12;
+  display:block;
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+top: 37%;
+  position:absolute;}
+.carousel-container img.prev {
+  left: 0.4rem;
+}
+.carousel-container img.next {
+  right: 0.4rem;
+}
+.carousel-container .carousel-item img {
+  position: relative;
+  width: 60%;
+  border: 5px solid white;
+}
+.carousel-item-container {
+  padding-top: 3rem;
+}
+                                                                                                                                                                               
+@media only screen and (max-width: 600px) {
+
+.carousel-slider {
+    height: 50rem !important;
+}
+.carousel-container {
+  height: 50rem;
+}
+}
+
+/*----------------PROCEDURES---------------*/
+section.procedures {
+  margin-top: -70px;
+}
+.procedures-bg {
+  background-color: #5BA59C;
+  background-image: url(/images/bg.svg);
+  background-size: 200px 98px;
+  min-height: 60vh;
+}
+.procedures-bg svg#health {
+  max-width: 15rem;
+  margin-top: 10rem;
+}
+.procedures-bg #health .health {
+  fill: white;
+}
+.procedures-bg h1 {
+  padding-bottom: 3rem;
+}
+
+/*----------------PROCEDURES LIST---------------*/
+section.procedures .procedure-list .flex {
+  display:flex;
+}
+section.procedures .procedure-list div.flex.categories {
+    align-items: center;
+  flex-flow: column wrap;
+}
+section.procedures .procedure-list div.list {
+  width: 85%;
+}
+@media only screen and (min-width: 601px) {
+section.procedures .procedure-list div.flex.categories {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+ section.procedures .procedure-list div.flex.categories {
+    align-items: initial;
+  }
+  section.procedures .procedure-list div.list {
+    width: 40%;
+  }
+  section.procedures .procedure-list .categories img.circle {
+    align-self: center;
+  }
+}
+section.procedures .procedure-list ul {
+  display:flex;
+  flex-direction: column;
+}
+section.procedures .procedure-list .li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+section.procedures .procedure-list li {
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+}
+section.procedures .procedure-list li:nth-child(n+2) {
+  border-top: 1px solid #ddd;
+}
